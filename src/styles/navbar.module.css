@@ -1,0 +1,25 @@
+.settingIcon {
+  color: rgb(99, 115, 129);
+  /* transform: rotate(360%) translateZ(0px); */
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin-right: 10px;
+}
+.settingIconDashboard {
+  color: rgb(99, 115, 129);
+  /* transform: rotate(360%) translateZ(0px); */
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
